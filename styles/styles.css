@@ -464,3 +464,63 @@ hr {
 .carousel {
     margin: 0 auto;
 }
+
+.background-light {
+    background-image: url(../images/light-background-with-dotes.png);
+    background-size: cover;
+}
+
+.height-for-light-section {
+    max-height: 820px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-near-form {
+    max-width: 450px;
+    margin-top: 200px;
+}
+
+.text-near-form h2{
+    font-size: 56px;
+    font-weight: 900;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(38, 46, 59);
+}
+
+.text-near-form hr{
+    margin-left: 0;
+}
+
+.text-near-form p{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: rgb(38, 46, 59);
+    max-width: 300px;
+}
+
+.red-form h6{
+    color: rgb(244, 40, 65);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.red-form a {
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.red-form a:hover {
+    text-decoration: none;
+}
+
+.margin-form-red {
+    line-height: 0.9em;
+}
