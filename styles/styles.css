@@ -636,3 +636,55 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .size-youtube-video {
+        max-width: 700px;
+        max-height: 470px;
+    }
+
+    .container-for-grid-girl-friend {
+        grid-template-columns: 1fr;
+    } 
+
+    .size-girl-with-friend {
+        display: none;
+    }
+
+    .size-girl-with-friend-second {
+        display: none;
+    }
+
+    .items-style-where-grid h2 {
+        text-align: center;
+    }
+
+    .items-style-where-grid hr {
+        margin: 30px auto;
+    }
+
+    .items-style-where-grid h5 {
+        text-align: center;
+    }
+
+    .items-style-where-grid a {
+        margin-top: 30px;
+        margin-left: auto;
+        width: 230px;
+    }
+
+    .items-style-where-grid p {
+        text-align: justify;
+    }
+
+    .items-style-where-grid li {
+        margin-left: 100px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 980px) {}
