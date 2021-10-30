@@ -163,8 +163,8 @@ hr {
 }
 
 .size-youtube-video {
-    max-width: 1170px;
-    max-height: 570px;
+    max-width: 900px;
+    max-height: 520px;
     display: block;
     margin: 50px auto;
 }
@@ -637,6 +637,10 @@ footer {
     justify-content: space-around;
 }
 
+.display-footer-last-text p {
+    color: rgba(238, 238, 236, 0.623);
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 1000px;
@@ -649,7 +653,7 @@ footer {
 
     .container-for-grid-girl-friend {
         grid-template-columns: 1fr;
-    } 
+    }
 
     .size-girl-with-friend {
         display: none;
@@ -685,6 +689,192 @@ footer {
         margin-left: 100px;
         max-width: 400px;
     }
+
+    .align-socials {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .border-icon {
+        width: 150px;
+    }
+
+    .box-styles {
+        max-width: 220px;
+        max-height: 213px;
+        border-radius: 10%;
+    }
+
+    .d-block {
+        margin: auto;
+    }
+
+    .shadow-for-form {
+        max-width: 450px;
+        max-height: 450px;
+        border: .1px solid white;
+    }
+
+    .form-control {
+        width: 350px;
+    }
+
+    .button-submit {
+        width: 350px;
+        height: 60px;
+    }
 }
 
-@media (max-width: 980px) {}
+@media (max-width: 980px) {
+
+    .title-story {
+        font-size: 40px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 900;
+        max-width: 300px;
+    }
+
+    .entry-story {
+        margin-top: 25px;
+        font-size: 14px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+
+    .height-fourth-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+        max-height: 650px;
+    }
+
+    .text-near-form {
+        margin-left: 50px;
+    }
+
+    .align-socials p {
+        font-size: 12px;
+    }
+
+    .shadow-for-form {
+        max-width: 400px;
+    }
+
+    .form-control {
+        width: 300px;
+    }
+
+    .button-submit {
+        width: 300px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .nav-items {
+        display: none;
+    }
+    
+    .container-for-social {
+        max-height: 900px;
+    }
+
+    .align-icon {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+
+    }
+
+    .border-icon {
+        margin: 0 auto;
+    }
+
+    .size-youtube-video {
+        max-width: 500px;
+        max-height: 270px;
+    }
+
+    .background-second-section {
+        max-height: 700px;
+    }
+
+    .height-third-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .girl-photo {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .display-for-text-girl {
+        margin-top: 0;
+    }
+
+    .title-story {
+        margin: 0 auto;
+        max-width: 400px;
+    }
+
+    .entry-story {
+        text-align: justify;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .display-for-text-girl {
+        margin-left: 0;
+    }
+
+    .social-box {
+        max-height: 210px;
+        font-size: 10px;
+    }
+
+    .align-socials {
+        margin-top: 10px;
+    }
+
+    .social-box h6 {
+        font-size: 10px;
+    }
+
+    .height-for-light-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-height: 900px;
+    }
+
+    .text-near-form {
+        margin-top: 0;
+    }
+
+    .text-near-form h2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .text-near-form hr{
+        margin: 20px auto;
+    }
+
+    .text-near-form p{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .red-form {
+        text-align: center;
+    }
+
+    .shadow-for-form {
+        margin-top: 0;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+
+}
